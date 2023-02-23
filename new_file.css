@@ -1,0 +1,97 @@
+		* {
+				padding: 0;
+				margin: 0;
+				list-style-type: none;
+				text-decoration: none;
+				overflow:scroll;
+				box-sizing: border-box;
+			}
+			::-webkit-scrollbar{
+				display: none;
+			}
+
+			body {
+				background-color: #131111;
+				overflow-y: hidden;
+			}
+
+			#zt {
+				z-index: 4;
+				width: 100%;
+				
+			}
+
+			#zt>ul {
+				margin: 0 auto;
+				text-align: center;
+				width: 600px;
+				height: 50px;
+				border: solid black 1px;
+				box-shadow: darkgrey 5px 5px 20px 1px;
+				font-family: 宋体;
+				color: #bd3f00;
+				
+			}
+
+			.e {
+				float: left;
+				margin-right: 40px;
+				line-height: 50px;
+				width: 65px;
+
+			}
+
+			.t {
+				display: none;
+				position: fixed;
+				top: 45px;
+
+			}
+
+			.t>li {
+				width: 80px;
+				height: 35px;
+
+			}
+
+			.e:hover>ul {
+				display: block;
+
+			}
+
+			/* 选择.t下的相邻li标签的第n个 */
+			.t>li:nth-child(1) {
+				margin-top: -10px;
+			}
+
+			.e:nth-child(1) {
+				margin-left: 10%;
+			}
+
+			a {
+				color: #ff5500;
+				font-family:黑体 ;
+			}
+
+			.e>a:hover {
+				color: #950000;
+			}
+
+			.t>li>a:hover {
+				color: #a05000;
+			}
+
+		/* 	video {
+				width: 100%;
+				height: auto;
+				position: fixed;
+				z-index:3;
+
+			} */
+
+			#kk {
+				width: 100%;
+				height: 768px;
+                position: fixed;
+				top: 0;
+			}
